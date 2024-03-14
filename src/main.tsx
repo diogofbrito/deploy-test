@@ -9,15 +9,15 @@ import { Contact } from "./pages/Contact.tsx";
 
 const router = createBrowserRouter([
   {
-    path: "/vite-react-router/",
+    path: "/deploy-test/",
     element: <App />,
     children: [
       {
-        path: "/vite-react-router/",
+        path: "/deploy-test/",
         element: <Home />,
       },
       {
-        path: "/vite-react-router/contact",
+        path: "/deploy-test/contact",
         element: <Contact />,
       },
     ],
